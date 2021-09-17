@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>UEC</title>
+<style>
+  .btn-group button a {
+    color: white;
+  text-decoration:none;
+  }
+  h1{
+  font-size:30px;
+  font-family:calibri;
+  }
+.btn-group button {
+  position:relative;
+  margin-top: 20px;
+  top:1000%;
+  margin-bottom: 10px;
+  background-color: #333;
+  /*background-color: #555;*/
+  color:white;
+  font-size: 20px;
+  padding: 24px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius:6px;
+  text-align: center;
+}
+.btn-group.a{
+  left: 50%;
+}
+.btn-group button:hover{
+     background-color:black;
+}
+.mySlides{
+  display:none;
+}
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.topnav1{
+  width:100%;
+  float: left;
+  background-color: #333;
+  color: white;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+body
+{
+margin:0px;
+
+}
+fieldset{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-width: 5px;
+  border-radius: 50px;
+}
+ul{
+  float: left;
+}
+li{
+	float: left;
+  list-style-type: circle;
+  margin-left: 35px;
+  padding-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="./linkReal.htm">Login/Register</a>
+  <a href="./index.html">Home</a>
+</div>
+<center>
+<fieldset class="1">
+<legend>VISION </legend>
+<p>To develop and nurture the available human resources
+ for the socio-economic and technological development in the state and the country as a whole.</p>
+</fieldset>
+<fieldset class="2">
+<legend>MISSION</legend>
+<ul>
+  <li>Professional competency</li>
+  <li>Linkage with industries and research organizations at National and international level
+</li>
+  <li>Adaptability to the trends and changes in the global community through our students.</li>
+  <li>Enhancement of research activities</li>
+</ul>
+</fieldset>
+
+ </center>
+ <br><br>
+<fieldset class="1">
+  <legend>Departments:</legend>
+<div class="btn-group">
+  <center>
+<button><a href="./ece.htm"  >ECE</a></button>
+<button><a href="./ee.htm"  >EE</a></button>
+<button><a href="./me.htm"  >ME</a></button>
+<button><a href="./cse.htm"  >CSE</a></button>
+<button><a href="./ce.htm"  >CE</a></button>
+<button><a href="./cme.htm"  >CM</a></button><br>
+<button class="a"><a href="./chem.htm" >Chemistry</a></button>
+<button class="a"><a href="./maths.htm" >Mathematics</a></button>
+<button class="a"><a href="./physics.htm">Physics</a></button>
+</div>
+ </fieldset>
+</center>
+<fieldset class="2">
+  <legend>Academics:</legend>
+<div class="btn-group">
+  <center>
+<button><a href="./academic calender.html" >Academic Calender</a></button>
+<button><a href="http://www.uecu.ac.in/PDF/Scholarship2019-20.PDF" >Scholarship</a></button>
+<button><a href="./scheme.html" >Scheme</a></button>
+<button><a href="./syllabus.html" >Syllabus</a></button>
+</div>
+</center>
+ </fieldset>
+ <center>
+ <br><br><br>
+ <fieldset class="1">
+ <h2 >Down the Memory Lane</h2>
+ <div style="max-width:600px">
+  <img class="mySlides" src="./Images/pics1.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics22.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/pics11.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/pics4.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics5.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics6.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics7.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics8.jpeg" style="width:100%">
+  <img class="mySlides" src="./Images/pics9.jpeg" style="width:100%">
+ 
+ 
+ 
+ 
+ 
+</div></center>
+</fieldset>
+<fieldset class="2">
+<legend>About us</legend><br>
+Made with love from students of Ujjain Engineering College
+<ul>
+<li>Abhay Sharma</li>
+<li>Nehal Purohit</li>
+<li>Sakshi Bhandari</li>
+<li>Chandrakant Khannade</li>
+</ul>
+</fieldset>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2300); 
+}
+</script>
+<div class="topnav1">
+    <img src="./Images/call.png" style="width:20px;height:20px;">1234567890<br>
+    <img src="./Images/email.png" style="width:20px;height:20px;">chandrakhannade[at]gmail.com<br>
+    <img src="./Images/address.png" style="width:20px;height:20px;">Sanwer Road,Ujjain
+</div>
+</body>
+</html>

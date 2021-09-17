@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url("./Images/resultback2.jpg");
+			background-repeat: no-repeat;
+			background-size:1980px 1080px;
+			margin :0;
+		}
+		fieldset{
+			border-width: 10px;
+			border-color: "red";
+			border-radius: 8px;
+			width:1000px;
+			height: 300px;
+			font-size: 25px;
+		}
+		input[type="submit"]{
+    		text-decoration: none;
+    		background-color: black;
+    		color: white;
+    		border:none;
+    		display: inline-block;
+    		padding: 15px 20px;
+    		text-align: center;
+    		margin: 4px 2px;
+    		cursor: pointer;
+  		}
+  		input[type="text"]{
+    		text-decoration: none;
+    		display: inline-block;
+    		padding-bottom: 2px: ;
+    		cursor: pointer;
+    		width: 200px;
+    		height: 20px;
+    		left: 10%;
+  		}
+  		.topnav {
+		  overflow: hidden;
+		  background-color: #333;
+		}
+
+		.topnav a {
+		  float: left;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 19px 16px;
+		  text-decoration: none;
+		  font-size: 25px;
+		}
+
+		.topnav a:hover {
+		  background-color: black;
+		  color: white;
+	</style>
+	<script type="text/javascript">
+		function check()
+		{
+			var x=document.getElementById('enroll').value;
+			var y=document.getElementById('sem').value;
+			if(x=="" && y=="")
+				alert("Enrollment no. and password required");
+			else if (x=="")
+				alert("Enrollment no. required");
+			else if(y=="")
+				alert("password required");
+			else
+	            alert("Result not Declared")
+		}
+	</script>
+</head>
+<body>
+<div class="topnav">
+  <a  href="./slide.htm">UECU</a>
+  <a  href="./result.htm">BACK</a>
+</div>
+<br><br><br><br><br>
+<center>
+	<fieldset>
+		<legend><b>Details:</b></legend><br>
+		<form>
+			Enrollment No. :<br>
+			<input type="text" id="enroll" name="number">
+			<br><br>
+			Semester :<br>
+			<input type="text" id ="sem" name="sem">
+			<br><br>
+			<input type="submit" onclick="check()">
+		</form>
+	</fieldset>
+</body>
+</html>

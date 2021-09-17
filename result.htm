@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<title>Result</title>
+	<style type="text/css">
+		fieldset{
+		  margin-left: 50px;
+		  margin-right: 50px;
+		  margin-top: 20px;
+		  margin-bottom: 20px;
+		  height: 120px;
+		  font-size: 30px;
+		  border-width: 5px;
+		  border-radius: 50px;
+		}
+		fieldset a{
+			text-decoration: none;
+			color: black;
+		}
+		.topnav {
+		  overflow: hidden;
+		  background-color: #333;
+		}
+
+		.topnav a {
+		  float: left;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 19px 16px;
+		  text-decoration: none;
+		  font-size: 25px;
+		}
+
+		.topnav a:hover {
+		  background-color: black;
+		  color: white;
+		}
+		body{
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+<div class="topnav">
+  <a  href="./slide.htm">UECU</a>
+  <a  href="./linkReal.htm">BACK</a>
+</div>
+<center><br><br><br><br><br><br>
+<fieldset>
+	<legend>Program:</legend> <br>
+	<a href="./result2.htm">
+  <input type="radio" onclick="javascript:window.location.href=slide.htm;"> B.E
+  <input type="radio" name="gender" value="B.Tech"> B.Tech
+    <input type="radio" name="gender" value="M.E."> M.E.
+   <input type="radio" name="gender" value="M.Tech"> M.Tech</a>
+</fieldset>
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+
+	</body>
+	</html>
